@@ -1,0 +1,24 @@
+{
+  "name": "vue-validator",
+  "version": "1.0.0",
+  "description": "A lightweight model-based validator for Vue, with no correlation to forms.",
+  "main": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrelom/vue-validator.git"
+  },
+  "keywords": [
+    "vue",
+    "model",
+    "validator"
+  ],
+  "author": "André Leandro de Oliveira Moraes",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andrelom/vue-validator/issues"
+  },
+  "homepage": "https://github.com/andrelom/vue-validator#readme"
+}
