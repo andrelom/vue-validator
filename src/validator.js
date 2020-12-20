@@ -1,7 +1,7 @@
 import { get, set, each, reduce } from './util'
 
 /**
- * Generates the "$validators" getters for each group
+ * Generates the "$validators" getters for each group.
  *
  * @param {Object} context
  * @param {Object} groups
@@ -25,7 +25,7 @@ function setValidatorsGetters(context, groups) {
 }
 
 /**
- * Generates the "$valid" getters for each group
+ * Generates the "$valid" getters for each group.
  *
  * @param {Object} context
  * @param {Object} groups
