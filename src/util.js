@@ -24,7 +24,7 @@ export function set(object, path, value) {
   const last = keys.pop()
   const item = get(object, keys.join('.'))
 
-  if (typeof item === 'object' && typeof item[last] === 'object') {
+  if (typeof item === 'object') {
     item[last] = value
   }
 
