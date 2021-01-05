@@ -12,7 +12,7 @@ function getOutput(format) {
 
   return {
     name: 'Validator',
-    file: `module/validator${sufix}.js`,
+    file: `dist/validator${sufix}.js`,
     format, banner
   }
 }
