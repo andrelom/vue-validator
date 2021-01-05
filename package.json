@@ -2,7 +2,8 @@
   "name": "vue-validator",
   "version": "1.0.0",
   "description": "A lightweight model-based validator for Vue, with no correlation to forms.",
-  "main": "",
+  "main": "dist/validator.js",
+  "module": "dist/validator.esm.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "rollup -c"
